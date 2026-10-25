@@ -21,6 +21,7 @@ export class CoinosConnector extends ConnectorElement {
         {
           ...(providerConfig?.nwc?.authorizationUrlOptions || {}),
           name: this._appName,
+          icon: this._appIcon,
         }
       );
       nwcClient.close();

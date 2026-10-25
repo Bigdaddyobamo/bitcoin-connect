@@ -57,6 +57,7 @@ export class AlbyHubPage extends withTwind()(BitcoinConnectElement) {
         {
           ...(providerConfig?.nwc?.authorizationUrlOptions || {}),
           name: this._appName,
+          icon: this._appIcon,
         }
       );
 
